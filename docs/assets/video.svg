@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="149px" height="149px" viewBox="0 0 149 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>video</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="73.5" cy="74.5" r="43.5"></circle>
+        <filter x="-8.0%" y="-5.7%" width="116.1%" height="116.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.172327899 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-438.000000, -1705.000000)" fill-rule="nonzero">
+            <g id="section3" transform="translate(0.000000, 1629.000000)">
+                <g id="video" transform="translate(439.000000, 77.000000)">
+                    <g id="Oval-5">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <circle id="Oval-8" stroke="#FFFFFF" opacity="0.595256696" cx="73.5" cy="73.5" r="60.5"></circle>
+                    <circle id="Oval-8" stroke="#FFFFFF" opacity="0.266071429" cx="73.5" cy="73.5" r="73.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
