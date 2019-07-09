@@ -1,0 +1,303 @@
+//variables overwrite
+$theme-colors: ('primary': #32297b,
+  'secondary': #363639);
+$yiq-contrasted-threshold: 200 !default;
+//import bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+html {
+  width: 100%;
+}
+
+* {
+  font-family: 'Lato', sans-serif, '微軟正黑體', 'Helvetica Neue', Helvetica,
+    Arial;
+  color: #363639;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.title {
+  font-size: 1.875rem;
+  text-align: center;
+  font-weight: 400;
+
+  @media (min-width: 992px) {
+    font-size: 2.25rem;
+  }
+}
+
+p {
+  color: #9b9b9b;
+  font-size: 1.125rem;
+}
+
+.top {
+  background-image: linear-gradient(to right,
+      #2b237c,
+      #0f054c);
+
+  .nav-link {
+    color: #fff !important;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+  }
+}
+
+.section-0 {
+  background-image: linear-gradient(to right,
+      #2b237c,
+      #0f054c);
+  margin-top: 63px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  position: relative;
+
+  @media (min-width: 1024px) {
+    margin-bottom: 40px;
+  }
+
+  h5 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 30px;
+  }
+
+  h1 {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 2.25rem;
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+    }
+  }
+
+  .left {
+    color: #32297b;
+    margin-left: 30px;
+    margin-top: 34px;
+  }
+
+  .right {
+    margin-top: 34px;
+    margin-left: 200px;
+  }
+
+  .right:hover {
+    color: #32297b;
+  }
+
+  button {
+    z-index: 500;
+    position: absolute;
+  }
+
+  height: 550px;
+}
+
+// #banner {
+//   position: absolute;
+//   left: 0;
+//   width: 100%;
+//   canvas {
+//      z-index: -1;
+//   }
+// }
+
+.banner {
+  height: 300px;
+  position: absolute;
+  right: 5%;
+  top: 200px;
+
+  @media (min-width: 375px) {
+    height: 400px;
+    right: 5%;
+    top: 100px;
+  }
+
+  @media (min-width: 768px) {
+    height: 578px;
+    right: 5%;
+    top: 0px;
+  }
+
+  @media (min-width: 1024px) {
+    height: 578px;
+    right: 0;
+    top: -100px;
+  }
+}
+
+.section-2 {
+  background-color: #f6f9ff;
+
+  img {
+    width: 100%;
+
+    @media (min-width: 992px) {
+      width: 90%;
+    }
+  }
+}
+
+.section-3 {
+  height: 319px;
+  width: 100%;
+  background-image: linear-gradient(to right,
+      #2b237c,
+      #0f054c);
+
+  canvas {
+    z-index: -1;
+  }
+
+  .play {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 70px;
+    text-align: center;
+
+    img {
+      cursor: pointer;
+      z-index: 500;
+    }
+
+    .tri {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 15.5px 23px 15.5px;
+      border-color: transparent transparent #32297b transparent;
+      position: absolute;
+      transform: rotate(90deg);
+      margin-left: 70px;
+      margin-top: -85px;
+      cursor: pointer;
+    }
+
+    a:hover+.tri,
+    .tri:hover {
+      border-color: transparent transparent #0dc2e9 transparent;
+    }
+  }
+}
+
+.section-4 {
+  img {
+    height: 244px;
+
+    @media (min-width: 768px) {
+      height: 326px;
+    }
+  }
+}
+
+.section-5 {
+  background-color: #f6f9ff;
+
+  h5 {
+    font-size: 1.6rem;
+  }
+}
+
+.table th,
+.table td {
+  border-top: 0 !important;
+}
+
+.section-6 {
+  h5 {
+    font-size: 1.3rem;
+  }
+}
+
+.section-7 {
+  height: 465px;
+  background-image: linear-gradient(to right,
+      rgba(96, 56, 246, 0.8),
+      rgba(13, 194, 233, 0.8)),
+    url(../assets/building.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  img {
+    height: 89px;
+    margin-top: 89px;
+
+    @media (min-width: 768px) {
+      height: 120px;
+      margin-top: 125px;
+    }
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  @media (min-width: 768px) {
+    height: 382px;
+  }
+
+  .content {
+    margin-top: 50px;
+
+    p {
+      text-align: center;
+
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+    }
+
+    @media (min-width: 768px) {
+      margin-top: 120px;
+      text-align: left;
+    }
+  }
+}
+
+.section-8 {
+  padding-top: 72px;
+  padding-bottom: 100px;
+
+  @media (min-width: 768px) {
+    padding-top: 79px;
+  }
+
+  button {
+    border: 0;
+  }
+}
+
+footer {
+  background-color: #f6f9ff;
+}
